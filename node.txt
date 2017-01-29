@@ -4,3 +4,10 @@ powershell chocolaty
 npm package manager
 
 npm init
+
+package.json
+npm install express --save
+	adds to the package.json
+	^4.whatever installs next build from major version
+	~4.installs minor updates
+	4.13.3 * specific
