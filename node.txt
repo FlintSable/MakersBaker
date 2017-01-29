@@ -11,3 +11,20 @@ npm install express --save
 	^4.whatever installs next build from major version
 	~4.installs minor updates
 	4.13.3 * specific
+
+
+
+create the app.js file
+node app.js
+npm will provide a stadard way of running applicaiton
+
+
+package.json
+      "start":"node app.js"
+npm start
+
+
+created new folders src and public
+public will be static stuff
+
+package.json file is the app config file
