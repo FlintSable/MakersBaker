@@ -1,0 +1,25 @@
+{
+  "name": "library",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Nicholas Noochla-or"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "homepage": "https://github.com/FlintSable/MakersBaker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "font-awesome": "~4.7.0"
+  }
+}

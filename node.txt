@@ -1,7 +1,8 @@
 node notes:
+Web application:
 
 powershell chocolaty
-npm package manager
+npm backend package manager
 
 npm init
 
@@ -28,3 +29,15 @@ created new folders src and public
 public will be static stuff
 
 package.json file is the app config file
+
+
+BOWER front end package manager:
+bower.json
+path may need value like so
+	D:\Web\library\%NODIST_PREFIX%\bin
+npm install bower -g
+bower install --save bootstrap
+
+.bowerrc will segrigate where the bower dependencies go
+bower install --save boostrap
+
