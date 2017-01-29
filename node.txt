@@ -1,0 +1,6 @@
+node notes:
+
+powershell chocolaty
+npm package manager
+
+npm init
