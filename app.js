@@ -11,11 +11,11 @@ app.use(express.static('src/views'));
 
 //Routes are searched after static
 app.get('/', function(req, res){
-	res.send("hello world");
+	res.send('hello world');
 });
 
 app.get('/books', function(req, res){
-	res.send("hello books");
+	res.send('hello books');
 });
 
 app.listen(port, function(err){

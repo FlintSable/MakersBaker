@@ -30,7 +30,7 @@ public will be static stuff
 
 package.json file is the app config file
 
-
+------------------------------------------------------------
 BOWER front end package manager:
 bower.json
 path may need value like so
@@ -41,3 +41,30 @@ bower install --save bootstrap
 .bowerrc will segrigate where the bower dependencies go
 bower install --save boostrap
 
+---------------------------------------
+GULP - taskmanager:
+PAINS to acknowledge: 
+starting and stopping server
+bringin in css and js
+config gulp
+code standarding
+
+installed with NPM
+code based config
+package based
+
+1. jshint - standard
+	install package - sublimelinter
+	npm install -g jshint
+2. jscs - style
+
+npm install -g gulp
+npm install gulp --save-dev
+
+npm install --save-dev gulp-jshint gulp-jscs jshint-stylish
+
+
+npm install --save-dev wiredep
+add to gulpfile.js function inject
+include comments in html for bower injection
+gulp inject
