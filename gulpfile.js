@@ -2,10 +2,12 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var jscs = require('gulp-jscs');
 
+// file resourece layout
 var jsFiles = ['*.js', 'src/**/*.js'];
 
 
 gulp.task('style', function(){
+	//return this stream for use in a subtask elsewhere
 	return gulp.src(jsFiles)
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish', {

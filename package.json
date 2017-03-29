@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "comment": "the next value has a script that allow you to npm start",
   "scripts": {
     "test": "{\"test\": \\\"Error: no test specified\\\" && exit 1\"}",
-    "start": "node app.js"
+    "start": "node app.js",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
