@@ -25,3 +25,14 @@ console.log('fsdf');
 
 // gulp setup
 // npm install -g gulp
+
+
+// npm install wiredep --save-dev
+
+// gulp inject
+// bower dependencies and and other files
+
+
+
+// node mon
+// npm install --save-dev gulp-nodemon

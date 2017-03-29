@@ -5,7 +5,7 @@ var express = require('express');
 
 var app = express();
 
-var port = 5000;
+var port = process.env.PORT || 5000;
 
 // //Routes are searched after static
 
